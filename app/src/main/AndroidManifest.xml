@@ -2,8 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- 开启网络权限，必须添加！！！ -->
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <!-- usesCleartextTraffic:开启访问http，必须添加！！！(不是http好像不用，本地服务需要) -->
     <application
         android:usesCleartextTraffic="true"
         android:allowBackup="true"
