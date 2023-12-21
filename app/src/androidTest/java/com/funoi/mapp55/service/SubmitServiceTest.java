@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 public class SubmitServiceTest {
     @Test
     public void testRequestByPost() throws Exception {
-        String url = "http://172.28.99.151:8080/ms1/addStu";
+        String url = "http://192.168.31.1:8080/ms1/addStu";
         Student student = new Student("芙宁娜", "女", "c", "d", "me");
         Gson gson = new Gson();
         String json = gson.toJson(student);
